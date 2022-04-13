@@ -1,0 +1,40 @@
+<web-app>
+    <servlet>
+		<servlet-name> loginservice </servlet-name>
+		<servlet-class> com.loginlogout.LoginService</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> loginservice </servlet-name>
+		<url-pattern> /loginservice </url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name> profile </servlet-name>
+		<servlet-class> com.loginlogout.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> profile </servlet-name>
+		<url-pattern> /profile </url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name> logout </servlet-name>
+		<servlet-class> com.loginlogout.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> logout </servlet-name>
+		<url-pattern> /logout </url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	<servlet-name> firstservlet </servlet-name>
+	<servlet-class> com.loginlogout.FirstServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name> firstservlet </servlet-name>
+	<url-pattern> /firstservlet </url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>
